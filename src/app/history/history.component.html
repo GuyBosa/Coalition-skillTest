@@ -1,0 +1,51 @@
+<div class="banner-background row d-flex justify-content-center pt-5">
+    <div>
+        <!-- <div class="navbar-brand m-5 mt-0" href="#">
+            <img class="p-2" src="../../assets/one.png">
+            <img class="LA" src="../../assets/history.png">
+        </div>
+        <div class="row m-5 mt-0">
+            lorem ipsum sit dolor amet consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at<br/>
+            maximus est. Nullam purus ex, iaculis sed erat sed,blandit tincidunt quam. Cras scelerisque id quam sed digissim <br/>
+            Pellentesque urna nunc, gravita quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+        </div> -->
+
+        <div class="row d-flex justify-content-center">
+          <div class="sticky-navbar">
+              <nav class="navbar navbar-expand-sm height-full">
+                  <div class="container">
+                      <a class="navbar-brand m-5 mt-0 mb-0" href="#">
+                        <img class="p-2" src="../../assets/one.png">
+                        <img class="LA" src="../../assets/history.png">
+                      </a>
+               
+                      <div class="collapse navbar-collapse m-5 mt-0 mb-0" id="navbarContent">
+                          <ul class="navbar-nav navigation">
+                              <p>
+                                lorem ipsum sit dolor amet consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at<br/>
+                                maximus est. Nullam purus ex, iaculis sed erat sed,blandit tincidunt quam. Cras scelerisque id quam sed digissim <br/>
+                                Pellentesque urna nunc, gravita quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+                              </p>
+                          </ul>
+                     </div>
+                  </div>   
+              </nav>
+          </div>
+        </div>
+
+        <div class="row margin">
+            <ngb-carousel>
+                <ng-template ngbSlide *ngFor="let image of images">
+                  <div class="wrapper">
+                    <img [src]="image.src" alt="Random first slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>{{ image.title }}</h3>
+                    <p>{{ image.short }}</p>
+                  </div>
+                </ng-template>
+              </ngb-carousel>
+        </div>
+    </div>
+    
+</div>

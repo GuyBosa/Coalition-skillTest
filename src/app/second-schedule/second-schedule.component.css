@@ -1,0 +1,18 @@
+
+.banner-background{
+    background: url(../../assets/froze.png);
+    background-size: cover;
+ }
+
+ .sticky-navbar{
+    width: 100%;
+    background-color: transparent !important;    
+    height: 469px;
+}
+
+.lightbackground{
+    background-color: aliceblue;
+    opacity: 0.7;
+    width: 555px;
+    margin: 50px 0 0 413px !important;
+ }

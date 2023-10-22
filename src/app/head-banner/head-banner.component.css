@@ -1,0 +1,57 @@
+.banner-background{
+    background: url(../../assets/headBanner.png);
+    background-size: cover;
+    color: #fff;
+ }
+
+ .nav-link{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .decoration{
+    text-decoration: underline;
+ }
+
+ .padding {
+  padding: 0 0 320px 0;
+ }
+
+ ::ng-deep .nav-link:hover, .nav-link:focus{
+    color: #FF5A60;
+}
+.sticky-navbar{
+    width: 100%;
+    background-color: transparent !important;
+    height: 100px;    
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+  .height-full{
+    background-color: transparent !important;
+  }
+
+  .background {
+    color: #fff;
+    background-size: cover;
+    width: auto;
+    margin: 50px 0 0 0;
+  }
+
+  @media (min-width: 320px) and (max-width: 767px){
+    .background {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    /* margin: 70px 0 0 0; */
+    padding: 20px 0 70px 0;
+    }
+  }
+  
+  

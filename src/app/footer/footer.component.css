@@ -1,0 +1,35 @@
+.nav-link{
+    color: aliceblue !important;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.5;
+ }
+ .navbar-brand {
+    opacity: 0.5;
+ }
+
+ .height-full{
+    background-color: rgb(16 19 100) !important;
+  }
+
+ .decoration{
+    text-decoration: underline;
+ }
+
+ ::ng-deep .nav-link:hover, .nav-link:focus{
+    color: #FF5A60;
+}
+.sticky-navbar{
+    width: 100%;
+    background-color: transparent !important;    
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.LA {
+    width: 100px;
+}

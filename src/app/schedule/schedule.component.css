@@ -1,0 +1,23 @@
+.nav-link{
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .decoration{
+    text-decoration: underline;
+ }
+
+ ::ng-deep .nav-link:hover, .nav-link:focus{
+    color: #FF5A60;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ .height-full{
+    background-color: rgb(16 19 100) !important;
+  }
